@@ -50,6 +50,7 @@ NSString * const apiKey = @"6e633cbc39635be277ccee2f76333d32";
 
 + (void)recognizeDataWithFileId:(NSString *)strFileId pages:(NSString *)strPages language:(NSString *)strLanguage rotationAngle:(NSString *)strAngle block:(completionResult)completion
 {
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://api.newocr.com/v1/ocr?key=%@&file_id=%@&page=%@&lang=%@&psm=3&rotate=%@",apiKey,strFileId,strPages,strLanguage,strAngle]]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue new] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         dispatch_async(dispatch_get_main_queue(), ^{
