@@ -10,6 +10,7 @@
 		9210F5721B391DB8000C750C /* Data.png in Resources */ = {isa = PBXBuildFile; fileRef = 9210F5711B391DB8000C750C /* Data.png */; };
 		92F196FC1BC3996A003401AC /* SendingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F196FB1BC3996A003401AC /* SendingIndicatorView.m */; settings = {ASSET_TAGS = (); }; };
 		92F196FF1BC39B16003401AC /* OCRdisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F196FE1BC39B16003401AC /* OCRdisplayViewController.m */; settings = {ASSET_TAGS = (); }; };
+		92F197011BC3A83D003401AC /* Launch icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F197001BC3A83D003401AC /* Launch icon.png */; settings = {ASSET_TAGS = (); }; };
 		92FD72121B3294BD00A3015D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD72111B3294BD00A3015D /* main.m */; };
 		92FD72151B3294BD00A3015D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD72141B3294BD00A3015D /* AppDelegate.m */; };
 		92FD72181B3294BD00A3015D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FD72171B3294BD00A3015D /* ViewController.m */; };
@@ -25,6 +26,7 @@
 		92F196FB1BC3996A003401AC /* SendingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendingIndicatorView.m; sourceTree = "<group>"; };
 		92F196FD1BC39B16003401AC /* OCRdisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRdisplayViewController.h; sourceTree = "<group>"; };
 		92F196FE1BC39B16003401AC /* OCRdisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCRdisplayViewController.m; sourceTree = "<group>"; };
+		92F197001BC3A83D003401AC /* Launch icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch icon.png"; sourceTree = "<group>"; };
 		92FD720C1B3294BD00A3015D /* iOCRreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOCRreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FD72101B3294BD00A3015D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92FD72111B3294BD00A3015D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				92F196FB1BC3996A003401AC /* SendingIndicatorView.m */,
 				92F196FD1BC39B16003401AC /* OCRdisplayViewController.h */,
 				92F196FE1BC39B16003401AC /* OCRdisplayViewController.m */,
+				92F197001BC3A83D003401AC /* Launch icon.png */,
 				9210F5711B391DB8000C750C /* Data.png */,
 				92FD72191B3294BD00A3015D /* Main.storyboard */,
 				92FD721C1B3294BD00A3015D /* Images.xcassets */,
@@ -157,6 +160,7 @@
 				92FD721B1B3294BD00A3015D /* Main.storyboard in Resources */,
 				9210F5721B391DB8000C750C /* Data.png in Resources */,
 				92FD72201B3294BD00A3015D /* LaunchScreen.xib in Resources */,
+				92F197011BC3A83D003401AC /* Launch icon.png in Resources */,
 				92FD721D1B3294BD00A3015D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
